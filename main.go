@@ -13,7 +13,7 @@ import (
 )
 
 type appConfig struct {
-	Bind string `env:"BIND" long:"bind" description:"Bind address" default:"localhost:8789"`
+	Bind string `env:"BIND" long:"bind" description:"Bind address" default:"localhost:8780"`
 
 	// Cloudflare R2 storage
 	R2AccountID       string `env:"R2_ACCOUNT_ID" long:"r2-account-id" description:"r2 account id"`
